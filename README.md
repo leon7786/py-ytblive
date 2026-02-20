@@ -1,6 +1,6 @@
 # YouTube 直播流代理服务器 | 免梯播放 YouTube 直播源
 
-**搭配 o11 等推流工具后制作免梯直播源，配合 TiviMate 在安卓盒子上打造完整 IPTV 直播频道列表
+**搭配 o11 等推流工具后制作免梯直播源，配合 TiviMate 在安卓盒子获得极佳体验
 
 <img src="https://github.com/user-attachments/assets/4086416d-f73a-4108-9d82-084287447456" width="500" />
 
@@ -8,21 +8,11 @@
 
 
 
-## 这是什么？
-
-
-这个脚本部署在一台能访问 YouTube 的 VPS 上，自动提取 YouTube 直播的真实流地址，
-
-把播放地址转换成例如 http://你的VPS地址:51179/@TVBSNEWS01
-
-上面地址需要挂梯。配合o11等推流实现免梯
-
----
-
 ## 安装与运行
 
-**安装好pythone3和依赖**
+**安装好python3和依赖**
 ```bash
+apt update && apt install python3 -y
 pip install flask yt-dlp requests psutil -q --break-system-packages
 ```
 
@@ -49,7 +39,7 @@ http://你的VPS地址:51179/@TVBSNEWS01
 
 注意，↑这个地址需要挂梯子。什么？你想要免梯？
 
-vps装好 o11 等推流工具转推后即可实现免梯；做好直播源，配好预告源和台标，配合 TiviMate 在安卓盒子上获得极佳体验
+vps装好 o11 等推流工具转推后即可实现免梯；做好直播源，配好预告源和台标即可获得最佳体验！
 
 
   
