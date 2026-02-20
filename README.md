@@ -43,19 +43,19 @@ http://你的VPS地址:51179/@setnews
 
 例如台湾TVBS新闻
 ```
-[https://www.youtube.com/@setnews](https://www.youtube.com/@TVBSNEWS01)
+https://www.youtube.com/@TVBSNEWS01
 ```
 
 直播源是
 ```
-[http://你的VPS地址:51179/@setnews](http://你的VPS地址:51179/@TVBSNEWS01)
+http://你的VPS地址:51179/@TVBSNEWS01
 ```
 
 结尾可以换成别的，youtube直播频道点进去头像 地址栏 `@` 后面的部分填入即可。
 
-注意，python出来的地址需要挂梯子。什么？你想要免梯？
+注意，直播源需要挂梯子。什么？你想要免梯？
 
-vps装好 o11 等推流工具转推后即可实现免梯；做好直播源，配好预告源和台标即可获得最佳体验！
+vps装好 o11 等推流工具转推后即可实现**免梯**；配好预告源和台标即可获得最佳体验！
 
 
   
