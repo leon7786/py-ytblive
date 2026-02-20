@@ -13,7 +13,7 @@
 
 这个脚本部署在一台能访问 YouTube 的 VPS 上，自动提取 YouTube 直播的真实流地址，
 
-把播放地址转换成例如 http://你的VPS地址:51179/@TVBSNEWS01。
+把播放地址转换成例如 http://你的VPS地址:51179/@TVBSNEWS01
 
 ---
 
