@@ -32,7 +32,7 @@ nohup python3 /root/py-ytblive.py > /var/log/py-ytblive.log 2>&1 &
 http://你的VPS地址:51179/@TVBSNEWS01
 ```
 
-频道名（如 `@TVBSNEWS01`）来自 YouTube 直播频道的地址栏，理论上支持任何 YouTube 直播频道。
+频道名（如 `@TVBSNEWS01`）来自 YouTube 直播头像-点进去的地址栏，理论上支持任何 YouTube 直播频道。
 
 可供以下 App 直接使用：
 - 安卓：**IPTV**、**TiviMate** 等
