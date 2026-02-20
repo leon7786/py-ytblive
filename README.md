@@ -12,7 +12,7 @@ python3 /root/py-ytblive.py
 
 **后台运行nohup python3 /root/py-ytblive.py > /var/log/youtube-proxy.log 2>&1 &
 
-**之后potplayer url播放http://www.你的vps..com:51179/@TVBSNEWS01 即可实现播放TVBS新闻频道
+**之后potplayer url播放http://www.你的vps.com:51179/@TVBSNEWS01 即可实现播放TVBS新闻频道
 
 ---
 
