@@ -40,7 +40,8 @@ http://你的VPS地址:51179/@TVBSNEWS01
 可供以下 App 直接使用：
 - 安卓：**IPTV**、**TiviMate** 等
 - 苹果：**APTVPlayer** 等
-- O11推流等
+- o11推流等
+  
 配合 TiviMate 制作一套完整直播源，在安卓机顶盒上体验极佳 📺
 
 
