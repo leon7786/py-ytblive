@@ -21,7 +21,7 @@
 
 ## 安装与运行
 
-**安装依赖**
+**安装好pythone3和依赖**
 ```bash
 pip install flask yt-dlp requests psutil -q --break-system-packages
 ```
@@ -49,9 +49,8 @@ http://你的VPS地址:51179/@TVBSNEWS01
 
 注意，↑这个地址需要挂梯子。什么？你想要免梯？
 
-vps装好 o11 等推流工具转推后，**国内设备无需梯子，手机、电视、盒子均可直接收看**。
+vps装好 o11 等推流工具转推后即可实现免梯；做好直播源，配好预告源和台标，配合 TiviMate 在安卓盒子上获得极佳体验
 
-做好直播源，配好预告源和台标，配合 TiviMate 在安卓盒子上获得极佳体验
 
   
 可供以下应用直接使用：
@@ -88,3 +87,12 @@ AUTO_CACHE_CHANNELS = [
 
 ---
 
+下面是m3u直播源范例
+
+```
+#EXTM3U x-tvg-url="https://gh.ddlc.top/https://raw.githubusercontent.com/sparkssssssssss/epg/main/pp.xml.gz"
+
+#EXTINF:-1 tvg-id="东森新闻台" tvg-name="东森新闻台" tvg-logo="https://gh.ddlc.top/https://upload.wikimedia.org/wikipedia/commons/1/15/EBC_News_logo_20150706.jpg" group-title="台灣頻道",台湾|東森新聞
+http://你的VPS地址:51179/@newsebc
+
+```
