@@ -1,24 +1,48 @@
 # YouTube 直播流代理服务器
 
-**一个让 PotPlayer 等播放器直接播放 YouTube 直播的 Python 工具**
-
-**需要安装依赖
-
-```pip install flask yt-dlp requests psutil -q --break-system-packages```
-
-
-**使用范例
-python3 /root/py-ytblive.py
-
-**后台运行nohup python3 /root/py-ytblive.py > /var/log/youtube-proxy.log 2>&1 &
-
-**之后potplayer url播放http://www.你的vps.com:51179/@TVBSNEWS01 即可实现播放TVBS新闻频道
+**一个让安卓机顶盒 / 苹果设备直接播放 YouTube 直播的 Python 脚本**
 
 ---
 
-## 介绍
+## 安装依赖
 
-YouTube 直播无法直接在 PotPlayer、VLC、OBS 等播放器中打开，每次都要手动用 yt-dlp 提取真实流地址，麻烦且容易过期。这个脚本搭建了一个本地 HTTP 代理服务，自动完成提取和缓存工作，让你直接把本地地址丢给播放器就能用。
+```bash
+pip install flask yt-dlp requests psutil -q --break-system-packages
+```
+
+## 运行（需要 VPS 能访问 YouTube）
+
+```bash
+python3 /root/py-ytblive.py
+```
+
+## 后台运行
+
+```bash
+nohup python3 /root/py-ytblive.py > /var/log/py-ytblive.log 2>&1 &
+```
+
+---
+
+## 使用说明
+
+直播源格式如下：
+
+```
+http://你的VPS地址:51179/@TVBSNEWS01
+```
+
+频道名（如 `@TVBSNEWS01`）来自 YouTube 直播频道的地址栏，理论上支持任何 YouTube 直播频道。
+
+可供以下 App 直接使用：
+- 安卓：**IPTV**、**TiviMate** 等
+- 苹果：**APTVPlayer** 等
+
+配合 TiviMate 制作一套完整直播源，在安卓机顶盒上体验极佳 📺
+
+
+---
+
 
 **主要功能：**
 
@@ -28,4 +52,3 @@ YouTube 直播无法直接在 PotPlayer、VLC、OBS 等播放器中打开，每�
 - 支持多频道统一管理，服务启动后自动预热缓存
 - 提供 `/cache/status`、`/cache/refresh`、`/health` 等管理接口，方便运维
 
-**适用场景：** 长期挂机收看 ABC News、Sky News 等 YouTube 直播频道，或搭配 IPTV 播放列表使用。
