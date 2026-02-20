@@ -16,7 +16,7 @@ pip install flask yt-dlp requests psutil -q --break-system-packages
 python3 /root/py-ytblive.py
 ```
 
-## 后台运行
+## rc.local自启动
 
 ```bash
 nohup python3 /root/py-ytblive.py > /var/log/py-ytblive.log 2>&1 &
