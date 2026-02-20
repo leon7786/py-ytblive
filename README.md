@@ -1,6 +1,9 @@
 # YouTube 直播流代理服务器
 
+
 **一个让安卓机顶盒 / 苹果设备直接播放 YouTube 直播的 Python 脚本**
+
+<img src="https://github.com/user-attachments/assets/4086416d-f73a-4108-9d82-084287447456" width="500" />
 
 ---
 
@@ -37,7 +40,7 @@ http://你的VPS地址:51179/@TVBSNEWS01
 可供以下 App 直接使用：
 - 安卓：**IPTV**、**TiviMate** 等
 - 苹果：**APTVPlayer** 等
-
+- O11推流等
 配合 TiviMate 制作一套完整直播源，在安卓机顶盒上体验极佳 📺
 
 
