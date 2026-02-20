@@ -29,19 +29,25 @@ nohup python3 /root/py-ytblive.py > /var/log/py-ytblive.log 2>&1 &
 ---
 
 ## 使用方法
-例如台湾TVBS新闻，youtube地址是
-```
-https://www.youtube.com/@TVBSNEWS01
-```
-Python转换出来的地址如下：
-
 ```
 http://你的VPS地址:51179/@TVBSNEWS01
 ```
+对应的是台湾TVBS新闻，youtube地址
+```
+https://www.youtube.com/@TVBSNEWS01
+```
 
-上面 `@TVBSNEWS01`可以换成别的直播源。**理论上支持任何 YouTube 直播频道**
+结尾 `@TVBSNEWS01`可以换成别的直播源。**理论上支持任何 YouTube 直播频道**
 
 youtube直播频道点进去头像 地址栏 `@` 后面的部分填入即可。
+
+例如三立LIVE新闻
+https://www.youtube.com/@setnews
+
+直播源就是
+http://你的VPS地址:51179/@setnews
+
+
 
 注意，python出来的地址需要挂梯子。什么？你想要免梯？
 
