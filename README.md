@@ -39,9 +39,9 @@ https://www.youtube.com/@setnews
 ```
 http://你的VPS地址:51179/@setnews
 ```
+---
 
-
-例如台湾TVBS新闻
+如台湾TVBS新闻
 ```
 https://www.youtube.com/@TVBSNEWS01
 ```
@@ -51,7 +51,7 @@ https://www.youtube.com/@TVBSNEWS01
 http://你的VPS地址:51179/@TVBSNEWS01
 ```
 
-结尾可以换成别的，youtube直播频道点进去头像 地址栏 `@` 后面的部分填入即可。
+结尾可以换成别的，youtube直播频道点进去头像 地址栏 `@` 后面的部分填入即可。Youtube各种直播源均支持。
 
 注意，直播源需要挂梯子。什么？你想要免梯？
 
